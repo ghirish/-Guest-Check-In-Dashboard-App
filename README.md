@@ -1,4 +1,4 @@
-# 🎉 Guest Check-In Dashboard App
+# Guest Check-In Dashboard App
 
 This project is a **simple guest check-in and attendance dashboard**, built to simulate a real-world event management tool.  
 It was designed as my **first backend project**, to gain hands-on experience with **Express.js**, **API design**, and connecting the backend with a dynamic frontend.
@@ -7,7 +7,7 @@ While learning backend development for the first time, I built out not just basi
 
 ---
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 ### 1. Install dependencies
 ```bash
@@ -75,7 +75,7 @@ http://localhost:8383
 
 ---
 
-## 📈 Tech Stack
+## Tech Stack
 
 - **Backend**: Express.js (Node.js)
 - **Frontend**: Vanilla HTML, CSS, and JavaScript
@@ -84,21 +84,7 @@ http://localhost:8383
 
 ---
 
-## 📸 Screenshots
-
-**Home Page (Guest Check-In):**
-- Simple guest form
-- Live updating guest list
-- Responsive layout
-
-**Dashboard Page (Attendance Visualization):**
-- Bar Chart showing guest counts
-- Toggleable Pie Chart for alternative view
-- Animated, colorful charts powered by Chart.js
-
----
-
-## 🎯 Purpose of the Project
+##  Purpose of the Project
 
 This app was my **first full backend project**, created to learn and practice:
 - Setting up an **Express server**
@@ -111,14 +97,4 @@ I intentionally made the project feel "real" by tying it to a practical **event 
 
 ---
 
-## 🚀 Future Improvement Ideas
-
-- Add timestamps to each guest check-in
-- Categorize guests (e.g., VIP, Speaker, General Attendee)
-- Add search functionality to quickly find guests
-- Deploy online for real-time usage at events
-- Add a "Clear All Guests" admin control
-
----
-
-# ✨ Thank you for checking out the Guest Check-In Dashboard App!
+# Thank you for checking out the Guest Check-In Dashboard App!

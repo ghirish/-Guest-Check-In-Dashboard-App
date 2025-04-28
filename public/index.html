@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guest Check-In</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <script defer src="/js/app.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <h1>Guest Check-In Portal</h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/dashboard.html">Dashboard</a>
+    </nav>
+  </header>
+  <main class="hero">
+    <h2>Welcome to the Event!</h2>
+    <p>Check-in guests below:</p>
+    <ul id="guest-list" class="data-list"></ul>
+    <div class="form-group">
+      <input type="text" id="guest-name-input" placeholder="Enter guest name..." />
+      <button id="checkin-btn" class="btn">Check-In</button>
+      <button id="remove-btn" class="btn warning">Remove Last</button>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025 Event Check-In App</p>
+  </footer>
+</body>
+</html>

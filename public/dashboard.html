@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guest Dashboard</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+  <script defer src="/js/dashboard.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <h1>Guest Dashboard</h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/dashboard.html" class="active">Dashboard</a>
+    </nav>
+  </header>
+  <main class="dashboard">
+    <section class="chart-container">
+      <button id="switch-chart-btn" class="btn switch-btn">Switch to Pie Chart</button>
+      <canvas id="guestChart"></canvas>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Event Check-In App</p>
+  </footer>
+</body>
+</html>
